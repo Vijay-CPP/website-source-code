@@ -1,0 +1,154 @@
+@font-face {
+  font-family: garet;
+  src: url(../fonts/Garet-Book.ttf);
+}
+
+@font-face {
+  font-family: gs;
+  src: url(../fonts/Gontserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: rb;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/* NavBar CSS starts */
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: gs;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.brand-name {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+  font-family: gs;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.brand-name:hover {
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+  font-family: gs;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+}
+
+/* NavBar CSS Ends */
+
+/* Caousel CSS Starts*/
+
+.header-carousel-item {
+  height: 100vh;
+  font-family: gs;
+}
+
+.c-img {
+  filter: brightness(0.5);
+}
+
+.carousel-caption {
+  font-family: gs;
+  font-size: 3.5rem;
+  margin-bottom: 30vh;
+}
+
+/* Caousel CSS Ends*/
+
+/* About starts */
+
+hr {
+  border: 1px solid gray;
+}
+
+.hr-about {
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+.about-heading {
+  margin-left: 5%;
+  font-family: gs;
+  margin-bottom: 4%;
+}
+
+.about-body {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: rb;
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about-last {
+  font-size: 1.6rem;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* About ends */
+
+/* Our Business Starts */
+
+.hr-business {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.business-carousel {
+  text-align: center;
+}
+
+.b-image {
+  border-radius: 20px;
+  height: 50vh;
+}
+
+.business > h1 {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-family: gs;
+}
+
+.b-row {
+  width: 90vw;
+  margin: 4%;
+}
+
+.b-content > h3 {
+  font-family: gs;
+}
+
+.b-content > p {
+  font-family: rb;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Our Business Ends */
+
+/* contact starts */
+
+/* Contact ends */
+
+/* Footer starts */
+
+/* Footer ends */
