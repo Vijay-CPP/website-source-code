@@ -140,6 +140,8 @@
 
   .contact-heading {
     margin-top: 10%;
+    margin-left: 0%;
+
     margin-bottom: 10%;
     text-align: center;
   }
@@ -195,4 +197,3 @@
     object-position: right;
   }
 }
-
