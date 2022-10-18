@@ -297,7 +297,6 @@ hr {
 
 .contact-heading {
   margin-top: 5%;
-  margin-left: 5%;
   margin-bottom: 3%;
 }
 
@@ -385,7 +384,7 @@ box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
   .write-img{
     margin-top: 5vh;
     width: 26vw;
-    height: 20vw;
+    height: 15vw;
     filter: grayscale(0.5);
     border-radius: 10px;
     object-fit: cover;
