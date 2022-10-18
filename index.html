@@ -5,10 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lelo International</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
   <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles/styles.css">
 
 </head>
@@ -33,16 +35,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto me-1">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#carsl">Home</a>
+            <a class="nav-link scroll" aria-current="page" href="#carsl">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link scroll" href="#about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#business">Our Businesses</a>
+            <a class="nav-link scroll" href="#business">Our Businesses</a>
           </li>
           <li class="nav-item">
-            <a style="font-family: gs;" href="#contact-us" class="btn btn-outline-secondary btn-lg"
+            <a style="font-family: gs;" href="#contact-us" class="btn btn-outline-secondary btn-lg scroll"
               type="button">Contact Us</a>
           </li>
         </ul>
@@ -207,7 +209,7 @@
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon cpi" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
@@ -592,18 +594,22 @@
 
     </div>
 
+    <div id="contact-us"></div>
 
     <!-- OurBusinesses Ends -->
 
-    <hr id="contact-us">
+    <hr>
 
     <!-- Contact Us starts -->
-    <div class="contact-us container">
 
-      <h1 class="text-center">Contact Us</h1>
+    <div class="contact-us container-fluid" style="font-family: gs;">
 
-      <div class="cu row">
-        <div class="contact-form col-lg-6 col-md-12 col-sm-12">
+      <h1 class="contact-heading">Contact Us</h1>
+
+      <div class="cu row mx-auto">
+
+        <div class="mx-auto contact-form col-lg-6 col-md-12 col-sm-12 col-12">
+
           <h3 class="mb-3">Get In Touch</h3>
 
           <form class="row g-3">
@@ -627,23 +633,28 @@
             </div>
 
             <div class="col-12">
-              <button class="btn btn-secondary">Submit</button>
+              <a href="submit.html" type="button" class="btn btn-secondary">Submit</a>
             </div>
           </form>
 
         </div>
-        <div class="write-us col-lg-6 col-md-12 col-sm-12">
-          <h3>Write To Us!</h3>
-          <a href="mailto:lelointernational@gmail.com">lelointernational@gmail.com</a>
+
+        <div class="mx-auto write-us col-lg-6 col-md-12 col-sm-12 col-12">
+          <h3 style="color: white;">Write To Us!</h3>
+          <a href="mailto:lelointernational@gmail.com"><i class="bi bi-envelope-fill"></i>lelointernational@gmail.com</a>
           <br>
-          <a href="mailto:srlcfoundation@gmail.com">srlcfoundation@gmail.com</a>
+          <a href="mailto:srlcfoundation@gmail.com"><i class="bi bi-envelope-fill"></i>srlcfoundation@gmail.com</a>
 
         </div>
+
       </div>
 
     </div>
 
     <!-- Contact Us ends -->
+
+    <hr class="footer-hr">
+
 
     <!-- Footer starts -->
 
@@ -662,10 +673,12 @@
     </div>
 
     <!-- Footer ends -->
+    <script src="scripts/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"></script>
+
 </body>
 
 </html>
