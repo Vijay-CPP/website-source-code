@@ -13,8 +13,6 @@
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
-
-
 /* NavBar CSS starts */
 
 .nav-item {
@@ -47,10 +45,24 @@
 .navbar {
   position: fixed;
   z-index: 10;
-  width: 100vw;
+  width: 90vw;
+  margin: 5vh auto 0;
+  margin-left: 10vh;
+  border-radius: 15px;
+  -webkit-box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
+  -moz-box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
+  box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
 }
 
-@media (min-width:1400px) {
+.sticky {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  margin: 0;
+  border-radius: 0px;
+}
+
+@media (min-width: 1400px) {
   .nav-item {
     margin-left: 20px;
     margin-right: 20px;
@@ -59,7 +71,7 @@
     font-weight: 600;
     font-size: 1.4rem;
   }
-  
+
   .brand-name {
     text-decoration: none;
     color: rgb(63, 63, 63);
@@ -68,7 +80,7 @@
     font-size: 1.7rem;
     font-weight: 600;
   }
-  
+
   .brand-name:hover {
     text-decoration: none;
     color: rgb(153, 153, 153);
@@ -77,13 +89,26 @@
     font-size: 1.5rem;
     font-weight: 600;
   }
-  
+
   .navbar {
     position: fixed;
     z-index: 10;
-    width: 100vw;
+    width: 90vw;
+    margin: 5vh auto 0;
+    margin-left: 5vw;
+    border-radius: 15px;
+    -webkit-box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
+    -moz-box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
+    box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
   }
-  
+
+  .sticky {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    margin: 0;
+    border-radius: 0px;
+  }
 }
 
 /* NavBar CSS Ends */
@@ -91,7 +116,7 @@
 /* Caousel CSS Starts*/
 
 .header-carousel-item {
-  height: 90vh;
+  height: 87vh;
   font-family: gs;
 }
 
@@ -105,23 +130,21 @@
   margin-bottom: 25vh;
 }
 
-@media (min-width:1400px) {
-
+@media (min-width: 1400px) {
   .header-carousel-item {
     height: 70vh;
     font-family: gs;
   }
-  
+
   .c-img {
     filter: brightness(0.5);
   }
-  
+
   .carousel-caption {
     font-family: gs;
     font-size: 5rem;
     margin-bottom: 22vh;
   }
-
 }
 
 /* Caousel CSS Ends*/
@@ -161,31 +184,30 @@ hr {
   margin-right: 5%;
 }
 
-
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .hr-about {
     margin-top: 2%;
     margin-bottom: 6%;
   }
-  
+
   .about-heading {
     margin-left: 5%;
     font-family: gs;
     margin-bottom: 3%;
     font-size: 3rem;
   }
-  
+
   .about-body {
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
     font-size: 1.7rem;
     font-family: rb;
-  
+
     text-align: justify;
     text-justify: inter-word;
   }
-  
+
   .about-last {
     font-size: 2rem;
     margin-top: 2%;
@@ -212,11 +234,11 @@ hr {
   height: 45vh;
   width: 35vw;
   object-fit: cover;
-  -webkit-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
-  -moz-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
-  box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
+  -webkit-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
+  -moz-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
+  box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
   z-index: 5;
-  margin:4%;
+  margin: 4%;
 }
 
 .business > h1 {
@@ -240,51 +262,49 @@ hr {
   text-justify: inter-word;
 }
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .hr-business {
     margin-top: 8%;
     margin-bottom: 5%;
   }
-  
-  .business > h1{
+
+  .business > h1 {
     font-size: 3rem;
   }
 
   .business-carousel {
     text-align: center;
-    
   }
-  
+
   .b-image {
     border-radius: 20px;
     height: 40vh;
     object-fit: cover;
     width: 35vw;
   }
-  
+
   .business > h1 {
     margin-left: 5%;
     margin-bottom: 5%;
     font-family: gs;
   }
-  
+
   .b-row {
     width: 85vw;
     margin: 4%;
   }
-  
+
   .b-content > h3 {
     font-family: gs;
     font-size: 2rem;
   }
-  
+
   .b-content > p {
     font-family: rb;
     text-align: justify;
     text-justify: inter-word;
     font-size: 1.4rem;
   }
-  
 }
 
 /* Our Business Ends */
@@ -308,9 +328,9 @@ hr {
   width: 40vw;
   border: 2px solid rgb(232, 232, 232);
 
-  -webkit-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
--moz-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
+  -webkit-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
+  -moz-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
+  box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
 }
 
 .write-us {
@@ -319,22 +339,22 @@ box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
   padding: 3%;
   width: 40vw;
   background-color: rgb(79, 79, 79);
-  -webkit-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
-  -moz-box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
-  box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
+  -webkit-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
+  -moz-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
+  box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
 }
 
-.write-us > a{
+.write-us > a {
   text-decoration: none;
   color: rgb(237, 237, 237);
   font-size: 1.5rem;
 }
 
-.write-us > a > i{
+.write-us > a > i {
   margin: 3%;
 }
 
-.write-img{
+.write-img {
   margin-top: 5vh;
   width: 35vw;
   height: 20vw;
@@ -344,18 +364,18 @@ box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
   object-position: right;
 }
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .cu {
     width: 65vw;
   }
-  
+
   .contact-heading {
     margin-top: 5%;
     margin-bottom: 3%;
     font-size: 3rem;
     text-align: center;
   }
-  
+
   .contact-form {
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
@@ -363,26 +383,26 @@ box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
     width: 30vw;
     max-height: 50vh;
   }
-  
+
   .write-us {
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
     padding: 3%;
-    width:30vw;
+    width: 30vw;
     background-color: rgb(79, 79, 79);
   }
-  
-  .write-us > a{
+
+  .write-us > a {
     text-decoration: none;
     color: rgb(237, 237, 237);
     font-size: 1.6rem;
   }
-  
-  .write-us > a > i{
+
+  .write-us > a > i {
     margin: 4%;
   }
 
-  .write-img{
+  .write-img {
     margin-top: 5vh;
     width: 26vw;
     height: 15vw;
@@ -393,18 +413,16 @@ box-shadow: 17px 17px 25px -4px rgba(189,189,189,0.71);
   }
 }
 
-
 /* Contact ends */
 
 /* Footer starts */
 
-.footer-hr{
+.footer-hr {
   margin-top: 5%;
 }
 
 /* Footer ends */
 
-
-#more{
+#more {
   display: none;
 }
