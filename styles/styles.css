@@ -366,12 +366,13 @@ hr {
 
 @media (min-width: 1400px) {
   .cu {
-    width: 65vw;
+    width: 75vw;
   }
 
   .contact-heading {
     margin-top: 5%;
     margin-bottom: 3%;
+    margin-left: 0;
     font-size: 3rem;
     text-align: center;
   }
@@ -380,7 +381,7 @@ hr {
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
     padding: 3%;
-    width: 30vw;
+    width: 35vw;
     max-height: 50vh;
   }
 
@@ -388,7 +389,7 @@ hr {
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
     padding: 3%;
-    width: 30vw;
+    width: 35vw;
     background-color: rgb(79, 79, 79);
   }
 
@@ -403,8 +404,8 @@ hr {
   }
 
   .write-img {
-    margin-top: 5vh;
-    width: 26vw;
+    margin-top: 4vh;
+    width: 30vw;
     height: 15vw;
     filter: grayscale(0.5);
     border-radius: 10px;
