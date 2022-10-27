@@ -211,3 +211,10 @@
     object-position: right;
   }
 }
+
+@media (max-width: 600px) {
+  .fb-icons {
+    margin-top: 2vh;
+    margin-left: 6vw;
+  }
+}
