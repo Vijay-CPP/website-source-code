@@ -46,8 +46,9 @@
   position: fixed;
   z-index: 10;
   width: 90vw;
-  margin: 5vh auto 0;
-  margin-left: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
   border-radius: 15px;
   -webkit-box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
   -moz-box-shadow: 6px 6px 12px -2px rgba(51, 51, 51, 0.44);
@@ -231,7 +232,7 @@ hr {
 
 .b-image {
   border-radius: 20px;
-  height: 45vh;
+  height: 20vw;
   width: 35vw;
   object-fit: cover;
   -webkit-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
@@ -278,7 +279,7 @@ hr {
 
   .b-image {
     border-radius: 20px;
-    height: 40vh;
+    height: 20vw;
     object-fit: cover;
     width: 35vw;
   }
@@ -347,7 +348,7 @@ hr {
 .write-us > a {
   text-decoration: none;
   color: rgb(237, 237, 237);
-  font-size: 1.5rem;
+  font-size: 1.8vw;
 }
 
 .write-us > a > i {
@@ -396,7 +397,7 @@ hr {
   .write-us > a {
     text-decoration: none;
     color: rgb(237, 237, 237);
-    font-size: 1.6rem;
+    font-size: 1.5vw;
   }
 
   .write-us > a > i {
