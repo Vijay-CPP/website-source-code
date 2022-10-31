@@ -1,4 +1,4 @@
-@media (max-width: 1050px) and (min-width: 750px) {
+@media (max-width: 1050px) and (min-width: 700px) {
   .nav-item {
     margin-left: 10px;
     margin-right: 10px;
@@ -49,7 +49,7 @@
   }
 }
 
-@media (max-width: 1050px) and (min-width: 750px) {
+@media (max-width: 1050px) and (min-width: 700px) {
   .header-carousel-item {
     font-family: gs;
     height: 40vh;
@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 1050px) and (min-width: 750px) {
+@media (max-width: 1050px) and (min-width: 700px) {
   .hr-about {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -101,7 +101,7 @@
   }
 }
 
-@media (max-width: 1050px) and (min-width: 750px) {
+@media (max-width: 1050px) and (min-width: 700px) {
   .hr-business {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -114,7 +114,7 @@
   .b-image {
     margin: 5% auto;
     border-radius: 20px;
-    height: 25vh;
+    height: 30vw;
     width: 40vw;
     object-fit: cover;
     -webkit-box-shadow: 17px 17px 25px -4px rgba(189, 189, 189, 0.71);
@@ -148,13 +148,13 @@
   }
 }
 
-@media (max-width: 1050px) and (min-width: 750px) {
+@media (max-width: 1050px) and (min-width: 700px) {
   .fb-icons {
     margin-top: 1vh;
   }
 }
 
-@media (max-width: 1050px) and (min-width: 750px) {
+@media (max-width: 1050px) and (min-width: 700px) {
   .cu {
     width: 95vw;
   }
