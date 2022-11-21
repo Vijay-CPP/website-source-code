@@ -20,12 +20,12 @@ function enquiry() {
   }
   else {
 
-    // emailjs.send("service_5j95idg", "template_tdtcz3c", {
-    //     from_name: fname,
-    //     email: femail,
-    //     phone: fphone,
-    //     message: fmessage,
-    // });
+    emailjs.send("service_rk7whb9", "template_mw4jb0m", {
+      from_name: fname,
+      email: femail,
+      phone: fphone,
+      message: fmessage,
+    });
 
     document.getElementById('inputEmail4').value = "";
     document.getElementById('inputAddress').value = "";
